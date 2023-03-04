@@ -30,28 +30,29 @@ const restart = function () {
 const rollDice = function () {
     const number = Math.floor(Math.random() * 6) + 1;
     dice.classList.contains("hidden") ? dice.classList.remove("hidden") : 0;
-    switch (number) {
-        case 1:
-            dice.setAttribute("src", "./img/dice-1.png");
-            break;
-        case 2:
-            dice.setAttribute("src", "./img/dice-2.png");
-            break;
-        case 3:
-            dice.setAttribute("src", "./img/dice-3.png");
-            break;
-        case 4:
-            dice.setAttribute("src", "./img/dice-4.png");
-            break;
-        case 5:
-            dice.setAttribute("src", "./img/dice-5.png");
-            break;
-        case 6:
-            dice.setAttribute("src", "./img/dice-6.png");
-            break;
-        default:
-            break;
-    }
+    // switch (number) {
+    //     case 1:
+    //         dice.setAttribute("src", "./img/dice-1.png");
+    //         break;
+    //     case 2:
+    //         dice.setAttribute("src", "./img/dice-2.png");
+    //         break;
+    //     case 3:
+    //         dice.setAttribute("src", "./img/dice-3.png");
+    //         break;
+    //     case 4:
+    //         dice.setAttribute("src", "./img/dice-4.png");
+    //         break;
+    //     case 5:
+    //         dice.setAttribute("src", "./img/dice-5.png");
+    //         break;
+    //     case 6:
+    //         dice.setAttribute("src", "./img/dice-6.png");
+    //         break;
+    //     default:
+    //         break;
+    // }
+    dice.src = `./img/dice-${number}.png`;
     return number;
 };
 const rollFunction = function () {
