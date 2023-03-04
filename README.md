@@ -24,3 +24,5 @@ Click on the "🔄 NEW GAME" button to restart the game. This can be done at any
 
 ## Dev's Note 👨‍💻
 This is a fun game to play with a friend and I would advice you try it.
+
+<a href="https://www.flaticon.com/free-icons/dice" title="dice icons">Dice icons created by Freepik - Flaticon</a>
