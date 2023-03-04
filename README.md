@@ -6,3 +6,4 @@ pig-game is a two-player game. You can play the game at <a href="https://wayside
 The gameplay of <a href="https://github.com/WaysideBaker57/pig-game/">pig-game</a> can be split into three concepts: rolling, holding, and winning.
 
 ### Rolling
+![Dice](https://raw.githubusercontent.com/WaysideBaker57/pig-game/main/dice-1.png)
