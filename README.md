@@ -16,7 +16,7 @@ Rolling a one will reset the current score and switch to the next player.
 Clicking on the "📥 HOLD" button to add the current score of the active player to the total score. This is done to prevent loss of score by rolling a one (Don't want to lose those valuable points now, do you? 😜).
 
 ### Winning 🎉
-The game is won by the first player to reach 100 in their total score. The player tab of the winning player changes color to #2f2f2f or jet black (if you must).
+The game is won by the first player to reach 100 in their total score. The player tab of the winning player changes color to #2F2F2F or jet black (if you must).
 
 ## Restarting the game
 I believe that a good look 🕵 at the game interface will tell you how to restart game but I will explain anyway.
