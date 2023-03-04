@@ -32,22 +32,22 @@ const rollDice = function () {
     dice.classList.contains("hidden") ? dice.classList.remove("hidden") : 0;
     switch (number) {
         case 1:
-            dice.setAttribute("src", "./dice-1.png");
+            dice.setAttribute("src", "./img/dice-1.png");
             break;
         case 2:
-            dice.setAttribute("src", "./dice-2.png");
+            dice.setAttribute("src", "./img/dice-2.png");
             break;
         case 3:
-            dice.setAttribute("src", "./dice-3.png");
+            dice.setAttribute("src", "./img/dice-3.png");
             break;
         case 4:
-            dice.setAttribute("src", "./dice-4.png");
+            dice.setAttribute("src", "./img/dice-4.png");
             break;
         case 5:
-            dice.setAttribute("src", "./dice-5.png");
+            dice.setAttribute("src", "./img/dice-5.png");
             break;
         case 6:
-            dice.setAttribute("src", "./dice-6.png");
+            dice.setAttribute("src", "./img/dice-6.png");
             break;
         default:
             break;
